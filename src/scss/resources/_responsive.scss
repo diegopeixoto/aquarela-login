@@ -45,7 +45,8 @@
     align-items: center;
     text-align: center;
     & p {
-      background-color: #fff5;
+      background-color: #EEE1;
+      backdrop-filter: blur(12px);
     }
   }
 

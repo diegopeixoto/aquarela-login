@@ -1,12 +1,12 @@
 {
-  "name": "icabank-site",
+  "name": "aquarela-login",
   "version": "1.0.9",
-  "description": "ICA Bank Website",
+  "description": "Aquarela Login",
   "main": "index.js",
   "scripts": {
-    "minjs": "uglifyjs src/esmeralda/tools/esmeralda.functions.js -c -o public/js/main.min.js;uglifyjs src/esmeralda/tools/preregister.functions.js -c -o public/js/preregister.min.js;uglifyjs src/esmeralda/tools/imask.js -c -o public/js/bundle.min.js"
+
   },
-  "repository": "https://github.com/aquarela-io/icabank-site.git",
+  "repository": "https://github.com/diegopeixoto/aquarela-login.git",
   "author": "AQUARELA <headquarters@aquarela.io>",
   "license": "MIT",
   "private": true,
