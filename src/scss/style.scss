@@ -1,0 +1,57 @@
+/*! Default Style for AQUARELA
+ * Copyright 2020 (C) AQUARELA */
+
+
+ @charset "UTF-8";
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   -webkit-appearance: none;
+ }
+
+ html {
+   // 1rem ~ 10px
+   font-size: 62.5%;
+ }
+
+@import "./resources/fonts";
+@import "./resources/colors";
+@import "./resources/variables";
+@import "./resources/animations";
+
+
+body {
+  background-color: $background;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  font-size: 1.6rem;
+  position: relative;
+}
+
+
+.content {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  padding: 0 30px;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+@import "./components/login";
+@import "./components/social";
+@import "./components/footer";
+
+
+@import "./resources/responsive";
+

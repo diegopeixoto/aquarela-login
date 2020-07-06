@@ -1,0 +1,1 @@
+const socialFacebook=document.querySelector(".facebook"),socialInstagram=document.querySelector(".instagram"),socialGithub=document.querySelector(".github");

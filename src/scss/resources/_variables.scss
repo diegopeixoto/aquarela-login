@@ -1,0 +1,33 @@
+
+
+$z-index: (
+  modal              : 200,
+  header             : 100,
+  subheader          : 95,
+  footer             : 90,
+);
+
+
+
+@mixin font-poppins($color,$size,$case,$weight) {
+  font-family: 'Poppins', sans-serif;
+  font-weight: $weight;
+  font-size: $size;
+  color: $color;
+  text-transform: $case;
+}
+
+@function z-index($key) {
+  @return map-get($z-index, $key);
+}
+
+@mixin z-index($key) {
+  z-index: z-index($key);
+}
+
+
+
+
+
+
+
