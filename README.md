@@ -1,5 +1,8 @@
 # AQUARELA Login Page
 ![aquarela-badge](https://img.shields.io/badge/made%20with%20love-AQUARELA-red?style=for-the-badge) ![javascript](https://img.shields.io/badge/-JAVASCRIPT-yellow?style=for-the-badge)![sass](https://img.shields.io/badge/-SASS-red?style=for-the-badge)
+<br>
+`This repo is mirrored from AQUARELA GIT repositories.`
+Feel free to visit the [original repo](https://git.aquarela.io/diegopeixoto/aquarela-login "original repo").
 
 Simple login page made for [AQUARELA](https://github.com/aquarela-io/) using native javascript and SCSS.
 
